@@ -78,7 +78,7 @@ const updateUI = (date, temp, content) => {
 // action function to act when user enter data and click the button
 const action = async () =>{
   //set weather api url & apiKey
-  const url ="http://api.openweathermap.org/data/2.5/weather?"
+  const url ="https://api.openweathermap.org/data/2.5/weather?"
   const apiKey = "2d1745756e1f2fc74430bffdf7be77f3&units=imperial"
   //get user data zip & feelings
   const zip =document.getElementById('zip').value;
